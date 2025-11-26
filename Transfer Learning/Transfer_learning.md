@@ -1,4 +1,4 @@
-# Transfer Learning --- A Senior-Level Explanation
+# Transfer Learning
 
 Transfer learning is a **machine learning technique** where a model
 trained on one task is **reused** (fully or partially) on a **different
@@ -7,7 +7,7 @@ learned knowledge.
 
 ------------------------------------------------------------------------
 
-## 🔍 **Why Transfer Learning?**
+## **Why Transfer Learning?**
 
 Traditional deep learning requires: - **Large datasets** - **High
 computational cost** - **Long training time**
@@ -17,7 +17,7 @@ Transfer learning solves this by: - Using a **pre-trained model**
 
 ------------------------------------------------------------------------
 
-## 🧠 Key Concepts
+## Key Concepts
 
 ### **1. Pre-trained Model**
 
@@ -28,12 +28,12 @@ Example: **VGG16**, **ResNet50**, **MobileNet**.
 ### **2. Feature Extraction**
 
 We use the **pre-trained layers as a fixed feature extractor**\
-➡️ Only train a new classifier on top.
+--> Only train a new classifier on top.
 
 ### **3. Fine-Tuning**
 
 We **unfreeze some deeper layers** of the pre-trained model\
-➡️ Allow the model to adjust to the new task.
+--> Allow the model to adjust to the new task.
 
 ### **4. Freezing Layers**
 
@@ -42,7 +42,7 @@ training.
 
 ------------------------------------------------------------------------
 
-## 🧩 Example Real-Life Analogy
+## Example Real-Life Analogy
 
 Imagine you already know **English**.\
 Learning **Spanish** becomes easier because: - Many words look similar\
@@ -53,13 +53,13 @@ You already have knowledge → You reuse it → You learn faster.
 
 ------------------------------------------------------------------------
 
-# 💻 Transfer Learning in TensorFlow (Code + Explanation)
+# Transfer Learning in TensorFlow (Code + Explanation)
 
 Below is a professional-level example using **MobileNetV2**.
 
 ------------------------------------------------------------------------
 
-## ⭐ Step-by-Step Code (TensorFlow)
+## Step-by-Step Code (TensorFlow)
 
 ``` python
 import tensorflow as tf
@@ -95,7 +95,7 @@ model.summary()
 
 ------------------------------------------------------------------------
 
-# 🏋️‍♂️ Fine‑Tuning the Model
+# Fine‑Tuning the Model
 
 After training the classifier head,\
 we can **unfreeze** deeper layers for improved accuracy.
@@ -114,7 +114,7 @@ model.compile(
 
 ------------------------------------------------------------------------
 
-# 📌 Best Practices (As a Senior Engineer)
+# Best Practices 
 
 ### **Use lower learning rates**
 
@@ -135,7 +135,7 @@ Prevents unnecessary training.
 
 ------------------------------------------------------------------------
 
-# 📝 Summary
+# Summary
 
   Concept                 Meaning
   ----------------------- ------------------------------------
@@ -149,5 +149,4 @@ Prevents unnecessary training.
 # 🎯 Final Thought
 
 Transfer learning allows you to build **high‑accuracy models** with
-**low data**, **low computation**, and **faster training** --- a
-technique every senior ML engineer uses daily.
+**low data**, **low computation**, and **faster training**.
