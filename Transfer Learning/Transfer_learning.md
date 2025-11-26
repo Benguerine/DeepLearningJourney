@@ -146,7 +146,7 @@ Prevents unnecessary training.
 
 ------------------------------------------------------------------------
 
-# 🎯 Final Thought
+# Final Thought
 
 Transfer learning allows you to build **high‑accuracy models** with
 **low data**, **low computation**, and **faster training**.
